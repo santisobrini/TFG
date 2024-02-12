@@ -1,0 +1,9 @@
+com\sobrini\TFG\Repository\FuentesRepository.class
+com\sobrini\TFG\Entity\Source.class
+com\sobrini\TFG\TfgApplication.class
+com\sobrini\TFG\Repository\VulnerabilidadRepository.class
+com\sobrini\TFG\Service\NVDService.class
+com\sobrini\TFG\Controller\NVDController.class
+com\sobrini\TFG\Entity\CVEAcceptanceLevel.class
+com\sobrini\TFG\Controller\SwaggerConfig.class
+com\sobrini\TFG\Entity\NVDSourceData.class

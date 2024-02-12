@@ -18,19 +18,15 @@ public class NVDService {
 
 	@Autowired
 	private VulnerabilidadRepository VulnerabilidadRepository;
-
+	@Autowired
+	private FuentesRepository fuentesRepository;
+	
 	public void guardarTodo(NVDSourceData todo) {
 		System.out.println("Guardando todos los datos: " + todo);
 		VulnerabilidadRepository.save(todo);
 	}
 
-	public List<NVDSourceData> BusquedaPorNombre(String name) {
 
-		return VulnerabilidadRepository.findBySources_Name(name);
-	}
-
-	@Autowired
-	private FuentesRepository fuentesRepository;
 
 	public void guardarFuentes(Source fuentes) {
 		System.out.println("Guardando todas las fuentes de las vulnerabilidades: " + fuentes);
